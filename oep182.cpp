@@ -7,7 +7,7 @@
 #include<conio.h>
 #include<cstdio>
 #define max 20
-
+//use of namespaces
 using namespace std;
 struct employee
 {
@@ -17,7 +17,7 @@ struct employee
  int exp;
  int age;
 };
-
+//struct
 int num;
 employee emp[max],tempemp[max],sortemp[max],sortemp1[max];
 int main()
